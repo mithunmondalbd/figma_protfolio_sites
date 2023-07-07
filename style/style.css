@@ -1,0 +1,137 @@
+/* Universer selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Work Sans;
+}
+.header{
+    background-image: url("../images/banner/banner1.png");
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 230px;
+    padding-top: 150px;
+}
+.header__title{
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.header__desc{
+    width: 494px;
+    color:#444343;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 18px;
+}
+.btn_primary{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 15px 20px;
+    border: 0;
+    cursor: pointer;
+}
+.failer_continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 200px 60px 150px;
+    gap: 100px;
+}
+.f-img{
+    border-radius: ;
+    background: rgba(241, 91, 34, 0.20) linear-gradient(bottom);
+    width: 400px;
+    height: auto;
+}
+.fail-content{
+    align-items: center;
+    justify-content: center;
+    height: 322px;
+}
+.fails-title{
+    color: #151414;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+    margin-bottom: 15px;
+}
+.fails-desc{
+    color: #444343;
+    font-size: 15px;
+    font-weight: 400;
+    /* line-height: 14px; */
+    margin-bottom: 15px;
+}
+.short-fix, p{
+    color: var(--dark-02, #444343);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.plan_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 70px 0;
+}
+.plan_img{
+    width: 50px;
+    height: 50px;
+}
+.plan-part{
+    text-align: center;
+}
+.mind_image{
+    background-image: url("../images/watch.png");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin: 0 auto;
+    /* text-align: center; */
+    width: 100%;
+    margin-left: 13rem;
+}
+.set_line{
+    padding: 40px 0 30px 30px;
+}
+.mind__title{
+    width: 350px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
